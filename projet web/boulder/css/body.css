@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    margin-top: 5%;
+    height: 100%; 
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    color: #fff;
+    background-color: black;
+   
+    text-shadow: 4px 4px 4px #aaa;
+    font-family: 'Bungee', cursive;
+}

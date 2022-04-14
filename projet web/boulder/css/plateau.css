@@ -1,0 +1,57 @@
+plateau {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/plane.png);
+    background-size: cover;
+    background-position: right;
+   
+    align-items: flex-end;
+    
+}
+
+
+
+plateau > div {
+    display: flex;
+
+}
+
+
+plateau > div > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    position: relative;
+
+}
+
+
+
+plateau > div > div.diamant { 
+    background: url(../img/diamant.png);
+    background-size: 30px 30px;
+}
+
+plateau > div > div.mur { 
+    background: url(../img/mur.jpg);
+    background-size: 30px 30px;
+}
+
+plateau > div > div.rocher {
+    background: url(../img/caillou2.png);
+    background-size: 30px 30px;
+}
+
+plateau > div > div.terre { 
+    background: url(../img/terre.png);
+    background-size: 30px 30px  ;
+}
+
+plateau > div > div.rockford {
+    background: url(../img/rockford.png);
+    background-size: 30px 30px;
+}
+
+

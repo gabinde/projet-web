@@ -1,0 +1,22 @@
+topbar {
+    display: flex;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    background-color: black;
+    justify-content: space-around;
+    color: #EBD71C;
+    flex-direction: column;
+
+}
+topbar > div {
+    display: flex;  
+}
+
+
+
+
+
+
+
+
+
